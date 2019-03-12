@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+//protocol for sending click event from cell
 protocol imageCellDelegate: class{
      func didTapUserRow(id : String)
 }
@@ -68,6 +68,7 @@ extension ViewController:imageCellDelegate{
 }
 
 extension ViewController{
+    //function call for get data from api
     func apiCall(){
         guard let gitUrl = URL(string: "https://valakt.dextra.com/explore") else { return }
         URLSession.shared.dataTask(with: gitUrl) { (data, response

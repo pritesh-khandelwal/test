@@ -9,7 +9,7 @@
 import UIKit
 
 
-
+//enum for section type
 enum Sectiontype {
     case dex
     case user
