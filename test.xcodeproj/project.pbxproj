@@ -109,10 +109,6 @@
 		9E1A8BC92237AF1D00D6639D /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				9E4E20A62236EC0A00145167 /* userCell.swift */,
-				9E4E20AA2236EC5E00145167 /* userCollCell.swift */,
-				9E3BE23822365D990016397F /* imageCollCell.swift */,
-				9E3BE23422365C060016397F /* imageCell.swift */,
 				9E3BE200223620FB0016397F /* AppDelegate.swift */,
 				9E4E209E2236E8B800145167 /* userList.swift */,
 				9E3BE202223620FB0016397F /* ViewController.swift */,
@@ -123,11 +119,15 @@
 		9E1A8BCA2237AF2A00D6639D /* view */ = {
 			isa = PBXGroup;
 			children = (
+				9E3BE23422365C060016397F /* imageCell.swift */,
 				9E3BE23522365C060016397F /* imageCell.xib */,
+				9E4E20A62236EC0A00145167 /* userCell.swift */,
+				9E4E209F2236E8B800145167 /* userList.xib */,
+				9E3BE23822365D990016397F /* imageCollCell.swift */,
 				9E3BE23922365D990016397F /* imageCollCell.xib */,
+				9E4E20AA2236EC5E00145167 /* userCollCell.swift */,
 				9E4E20AB2236EC5E00145167 /* userCollCell.xib */,
 				9E4E20A72236EC0A00145167 /* userCell.xib */,
-				9E4E209F2236E8B800145167 /* userList.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
